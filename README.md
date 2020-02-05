@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  Foodfy Challenge - LaunchBase 2020 - Rocketseat
+  Foodfy Challenge with NodeJS - LaunchBase 2020 - Rocketseat
 </h3>
 
 
@@ -15,12 +15,13 @@
 - [JavaScript](https://www.javascript.com)
 - [HTML](https://www.w3.org)
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+- [NodeJS](https://nodejs.org)
 
 
 ## Preview
 
 <h1 align="center">
-    <img alt="" src="./layout/preview.PNG" width="940px" />
+    <img alt="" src="./public/layout/preview.PNG" width="940px" />
 </h1>
 
 
