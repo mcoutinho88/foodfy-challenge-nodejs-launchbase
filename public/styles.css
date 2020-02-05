@@ -14,18 +14,17 @@ body {
 header {
     padding-bottom: 36px;
     margin: 20px auto;
+    width: 940px;
 }
 
 header p {
     width: 100px;
 }
 
-header .links {
-    margin-left: 125px;
-}
+
 
 .links a {
-    margin: 0 30px;
+    margin-right: 60px;
     font-size: 16px;
     color: #111111;
     text-decoration: none;
@@ -127,67 +126,9 @@ footer p{
     line-height: 16px;
     text-align: center;
     font-size: 14px;
+    margin: 10px 0;
 }
 
-/* ----- MODAL ----- */
-.modal-overlay {
-    background-color: rgba(0, 0, 0, 0.7);
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    opacity: 0;
-    visibility: hidden;
-}
-
-.modal {
-    background-color: white;
-    width: 660px;
-    height: 413px;
-    margin: 10vh auto;
-    position: relative;
-    border-radius: 16px;
-}
-
-.modal .close-modal {
-    color: black;
-    position: absolute;
-    bottom: 30px;
-    left: 325px;
-    cursor: pointer;
-}
-
-/* ----- MODAL.ACTIVE ----- */
-.modal-overlay.active {
-    opacity: 1;
-    visibility: visible;
-}
-
-
-
-.modal .modal-content .modal-img-container img {
-    border-radius: 15px;
-    margin: 30px;
-    object-fit: cover;
-    width: 600px;
-    height: 200px;
-} 
-
-.modal .modal-content p#recipe-name{
-    margin: 0 0 20px 0px;
-    text-align: center;
-    line-height: 16px;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.modal .modal-content p#recipe-owner{
-    margin: 5px 0 20px 0px;
-    text-align: center;
-    line-height: 16px;
-    font-size: 14px;
-    color: #777777;
-}
 
 /* ==== ABOUT.HTML ====*/
 
@@ -260,12 +201,14 @@ footer p{
 
 .showHide {
     align-self: flex-end;
-    padding-left: 10px;
+    margin-left: 10px;
     font-size: 12px;
     line-height: 14px;
     background-color: white;
     color: #999999;
     font-weight: bold;
+    text-decoration: underline ;
+    cursor: pointer;
 }
 
 .ingrediente-wrapper ul, .preparo-wrapper ul {
@@ -275,7 +218,7 @@ footer p{
     line-height: 28px;
 }
 
-.ingrediente-content {
+.ingrediente-content, .preparo-content, .info-content {
     display: block;
 }
 
