@@ -7,8 +7,9 @@
 </h3>
 
 
+## :speech_balloon: Description
 
-
+This challenge consists of building a web application for a fictional recipe company called Foodfy. This application can register new recipes and can list all recipes registered.
 
 ## :computer: Technologies
 
